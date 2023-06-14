@@ -1,0 +1,49 @@
+type Block @entity {
+  " the block hash "
+  id: ID!
+
+  " the block hash "
+  hash: Bytes!
+
+  " the block number "
+  number: BigInt!
+
+  " hash of the parent block "
+  parentHash: Bytes!
+
+  " hash of the uncle block"
+  unclesHash: Bytes!
+
+  " address of the beneficiary to whom the mining rewards were given "
+  author: Bytes!
+
+  " root hash for the global state after applying changes in this block "
+  stateRoot: Bytes!
+
+  " root hash of the transactions in the payload "
+  transactionsRoot: Bytes!
+
+  " hash of the transaction receipts trie "
+  receiptsRoot: Bytes!
+
+  " the actual amount of gas used in this block "
+  gasUsed: BigInt!
+
+  " maximum gas allowed in this block "
+  gasLimit: BigInt!
+
+  " the block time "
+  timestamp: BigInt!
+
+  " number of leading zeroes that are required in the resulting block hash for it to be considered valid - PoW only"
+  difficulty: BigInt!
+
+  " the sum of the Ethash mining difficulty for all blocks up to some specific point in the blockchain "
+  totalDifficulty: BigInt!
+
+  " the size of the block in bytes "
+  size: BigInt
+
+  " the minimum gas fee a user must pay to include a transaction in the block "
+  baseFeePerGas: BigInt
+}
