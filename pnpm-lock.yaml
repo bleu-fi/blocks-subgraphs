@@ -1,11 +1,11 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@graphprotocol/graph-cli': 0.51.1
-  '@graphprotocol/graph-ts': 0.31.0
+  '@graphprotocol/graph-cli': latest
+  '@graphprotocol/graph-ts': latest
 
 dependencies:
-  '@graphprotocol/graph-cli': 0.51.1
+  '@graphprotocol/graph-cli': 0.52.0
   '@graphprotocol/graph-ts': 0.31.0
 
 packages:
@@ -207,13 +207,13 @@ packages:
       js-yaml: 4.1.0
     dev: false
 
-  /@graphprotocol/graph-cli/0.51.1:
-    resolution: {integrity: sha512-6W1aphU/0Uq1ju8e4Ya5plmXUcjCR2N30wjDrf5Cn6QjHsk9VUqMt4x3+D3DHGSVvXve2+ThiEU2s2xktP3PTw==}
+  /@graphprotocol/graph-cli/0.52.0:
+    resolution: {integrity: sha512-eypShsC0sB7QWiPz4O2k0oh/sY75JYL1XXSCdBUFOIh+N5Pf0oKjKRx88B9wKLlUTlS2m+/tCVnHuTA9tL0wlQ==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
       '@float-capital/float-subgraph-uncrashable': 0.0.0-internal-testing.5
-      '@oclif/core': 2.8.4
+      '@oclif/core': 2.8.6
       '@whatwg-node/fetch': 0.8.8
       assemblyscript: 0.19.23
       binary-install-raw: 0.0.13_debug@4.3.4
@@ -313,8 +313,8 @@ packages:
       fastq: 1.15.0
     dev: false
 
-  /@oclif/core/2.8.4:
-    resolution: {integrity: sha512-VlFDhoAJ1RDwcpDF46wAlciWTIryapMUViACttY9GwX6Ci6Lud1awe/pC3k4jad5472XshnPQV4bHAl4a/yxpA==}
+  /@oclif/core/2.8.6:
+    resolution: {integrity: sha512-1QlPaHMhOORySCXkQyzjsIsy2GYTilOw3LkjeHkCgsPJQjAT4IclVytJusWktPbYNys9O+O4V23J44yomQvnBQ==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@types/cli-progress': 3.11.0
